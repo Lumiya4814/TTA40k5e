@@ -977,12 +977,279 @@
                 "increaseMaximumChildren": {
                     "models": 14                
                 }
+			},
+          	{
+				"name": "Stormboyz",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+                  {
+                  }
+				],
+                "increaseMaximumChildren": {
+                    "models": 19               
+                }
+			},
+			{
+				"name": "Warbuggies",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+                  {
+                  }
+				],
+                "increaseMaximumChildren": {
+                    "models": 2               
+                }
+			},
+			{
+				"name": "Warbikers",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+                  {
+                  }
+				],
+                "increaseMaximumChildren": {
+                    "models": 11               
+                }
+			},
+			{
+				"name": "Deffkoptas",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+                  {
+                  }
+				],
+                "increaseMaximumChildren": {
+                    "models": 4               
+                }
+			},
+			{
+				"name": "Battlewagon",
+				"points": 90,
+                "factions":[
+                    {
+						"name": "Orks",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"bs": 2,
+				"front": 14,
+				"side": 12,
+				"rear": 10,
+				"wargear": [],
+				"specialRules": [],
+				"options": [
+					{
+						"name": "Killkannon",
+						"points": 60,
+						"unavailableIn": "Nobz"
+					},
+					{
+						"name": "'Ard Case",
+						"points": 15
+					},
+					{
+						"name": "Deff Rolla",
+						"points": 20,
+						"unavailableWithLocal": "Reinforced Ram"
+					},
+					{
+						"name": "Red Paint Job",
+						"points": 5
+					},
+					{
+						"name": "Grot Riggers",
+						"points": 5
+					},
+					{
+						"name": "Stikkbomb Chukka",
+						"points": 5
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					},
+					{
+						"name": "Boarding Plank",
+						"points": 5
+					},
+					{
+						"name": "Wreckin' Ball",
+						"points": 10
+					},
+					{
+						"name": "Grabbin' Klaw",
+						"points": 5
+					},
+					{
+						"name": "Reinforced Ram",
+						"points": 5,
+						"unavailableWithLocal": "deff rolla"
+					},
+					{
+						"name": "Kannon",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Lobba",
+						"points": 15,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Zzap gun",
+						"points": 15,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Big Shoota",
+						"points": 5,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"name": "Rokkit Launchas",
+						"points": 10,
+						"increment": true,
+						"max": 4
+					}
+				]
 			}
 		],
         "models":[
 			{
+				"name": "Stormboy",
+				"points": 12,
+                "availableIn": [
+                    "Stormboyz"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 3,
+				"t": 4,
+				"w": 1,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga & Choppa",
+					"Rokkit Pack",
+					"Stikkbombz"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule"
+				],
+				"options": [
+				]
+			},
+			{
+				"name": "Stormboy Nob",
+				"points": 22,
+                "availableIn": [
+                    "Stormboyz"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga",
+					"Choppa"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+					{
+						"name": "Slugga and Choppa",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Big Choppa",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Power Klaw",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "'Eavy Armour",
+						"points": 5
+					},
+                    {
+						"name": "Bosspole",
+						"points": 5
+					}
+				]
+			},
+			{
 				"name": "Gretchin",
-				"points": 6,
+				"points": 3,
                 "availableIn": [
                     "Gretchin"
                 ],
