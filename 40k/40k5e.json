@@ -1169,6 +1169,138 @@
 		],
         "models":[
 			{
+				"name": "Deffkopta",
+				"points": 35,
+                "availableIn": [
+                    "Deffkoptas"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 3,
+				"t": 4,
+				"w": 2,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Choppa"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Scouts",
+					"Hit and Run"
+				],
+				"options": [
+					{
+						"name": "Twin-linked Big Shoota",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Twin-linked Rokkit Launcha",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Kustom Mega-Blasta",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "Bigbomm",
+						"points": 15
+					},
+                    {
+						"name": "Buzzsaw",
+						"points": 25
+					}
+
+				]
+			},
+			{
+				"name": "Warbiker",
+				"points": 25,
+                "availableIn": [
+                    "Warbikers"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 3,
+				"t": 4,
+				"w": 1,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga & Choppa",
+					"Warbike",
+					"Dakkagun"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Exhaust Cloud"
+				],
+				"options": [
+				]
+			},
+			{
+				"name": "Warbiker Nob",
+				"points": 35,
+                "availableIn": [
+                    "Warbikers"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga",
+					"Choppa"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Exhaust Cloud"
+				],
+				"options": [
+					{
+						"name": "Choppa",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Big Choppa",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Power Klaw",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "'Eavy Armour",
+						"points": 5
+					},
+                    {
+						"name": "Bosspole",
+						"points": 5
+					}
+				]
+			},
+			{
 				"name": "Stormboy",
 				"points": 12,
                 "availableIn": [
