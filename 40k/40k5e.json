@@ -1087,6 +1087,57 @@
                 }
 			},
 			{
+				"name": "Big Gunz",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Heavy Support"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Kannons",
+						"points": 0,
+						"requireChooseOneKey": "a",
+						"scaleWithKeys": "guns"
+					},
+					{
+						"name": "Lobbas",
+						"points": 5,
+						"requireChooseOneKey": "a",
+						"scaleWithKeys": "guns"
+					},
+					{
+						"name": "Zzap Guns",
+						"points": 10,
+						"requireChooseOneKey": "a",
+						"scaleWithKeys": "guns"
+					},
+					{
+						"name": "Ammo Runt",
+						"points": 3,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"name": "Grot Krew",
+						"points": 3,
+						"increment": true,
+						"max": 6
+					}
+				],
+                "increaseMaximumChildren": {
+                    "models": 3               
+                }
+			},
+			{
 				"name": "Looted Wagon",
 				"points": 35,
                 "factions":[
@@ -1324,6 +1375,53 @@
 			}
 		],
         "models":[
+			{
+				"name": "Big Gun",
+				"points": 20,
+                "availableIn": [
+                    "Big Gunz"
+                ],
+				"scaleKeys": ["trooper"],
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Kannon",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Rokkit Launcha",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Skorcha",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Grotzooka",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Kustom Mega-Blasta",
+						"points": 20,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "Grot Riggers",
+						"points": 5
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					}
+				]
+			},
 			{
 				"name": "Killa Kan",
 				"points": 35,
@@ -1665,7 +1763,8 @@
 				"name": "Runtherd",
 				"points": 10,
                 "availableIn": [
-                    "Gretchin"
+                    "Gretchin",
+					"Big Gunz"
                 ],
 				"scaleKeys": ["trooper"],
 				"ws": 4,
