@@ -1066,27 +1066,6 @@
                 }
 			},
 			{
-				"name": "Warbuggies",
-                "addsModels": true,
-				"points": 0,
-				"factions": [
-					{
-						"name": "Orks",
-						"rank": "Fast Attack"
-					}
-				],
-				"unlimited": true,
-				"wargear": [
-				],
-				"specialRules": [
-				],
-				"options": [
-				],
-                "increaseMaximumChildren": {
-                    "models": 2               
-                }
-			},
-			{
 				"name": "Battlewagon",
 				"points": 90,
                 "factions":[
