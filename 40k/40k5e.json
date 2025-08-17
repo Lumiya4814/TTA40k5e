@@ -997,8 +997,6 @@
 					"Waaagh!"
 				],
 				"options": [
-                  {
-                  }
 				],
                 "increaseMaximumChildren": {
                     "models": 19               
@@ -1020,8 +1018,6 @@
 				"specialRules": [
 				],
 				"options": [
-                  {
-                  }
 				],
                 "increaseMaximumChildren": {
                     "models": 2               
@@ -1043,8 +1039,6 @@
 				"specialRules": [
 				],
 				"options": [
-                  {
-                  }
 				],
                 "increaseMaximumChildren": {
                     "models": 11               
@@ -1066,8 +1060,6 @@
 				"specialRules": [
 				],
 				"options": [
-                  {
-                  }
 				],
                 "increaseMaximumChildren": {
                     "models": 4               
