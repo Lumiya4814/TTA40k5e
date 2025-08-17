@@ -1354,9 +1354,81 @@
 						"points": 10
 					}
 				]
+			},
+			{
+				"name": "Flash Gitz",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Heavy Support"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "More Dakka",
+						"points": 5,
+						"scaleWithKeys": ["trooper"]
+					},
+					{
+						"name": "Shootier",
+						"points": 5,
+						"scaleWithKeys": ["trooper"]
+					},
+					{
+						"name": "Blastas",
+						"points": 5,
+						"scaleWithKeys": ["trooper"]
+					},
+					{
+						"name": "Ammo Runt",
+						"points": 5,
+						"increment": true,
+						"max": 3
+					}
+				],
+                "increaseMaximumChildren": {
+                    "models": 9,
+					"transport": 1
+                }
 			}
 		],
         "models":[
+			{
+				"name": "Flash Git",
+				"points": 25,
+                "availableIn": [
+					"Flash Gitz"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"'eavy Armour",
+					"Snazzgun",
+					"Gitfinda"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+				]
+			},
 			{
 				"name": "Big Gun",
 				"points": 20,
@@ -2163,6 +2235,38 @@
 					}
 				]
 			},
+			{
+				"name": "Painboy",
+				"points": 55,
+                "availableIn": [
+                    "Flash Gitz"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 3,
+				"a": 3,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Dok's Tools",
+					"'Urty Syringe"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+					{
+						"name": "Grot Orderly",
+						"points": 5
+                    }
+				]
+			},
             {
 				"name": "Boyz Nob",
 				"points": 16,
@@ -2278,6 +2382,10 @@
 						"name": "Twin-linked Shoota",
 						"points": 5,
 						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Cybork Body",
+						"points": 5
 					},
                     {
 						"name": "'Eavy Armour",
