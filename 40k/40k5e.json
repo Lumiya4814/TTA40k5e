@@ -1455,6 +1455,10 @@
 						"name": "Zzap Guns",
 						"points": 10,
 						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Cybork Body",
+						"points": 5
 					}
 				]
 			},
