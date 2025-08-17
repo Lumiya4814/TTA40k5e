@@ -1244,7 +1244,7 @@
         "models":[
 			{
 				"name": "Warbuggy",
-				"points": 35,
+				"points": 30,
                 "availableIn": [
                     "Warbuggies"
                 ],
