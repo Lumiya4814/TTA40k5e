@@ -1066,6 +1066,27 @@
                 }
 			},
 			{
+				"name": "Warbuggies",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 2               
+                }
+			},
+			{
 				"name": "Battlewagon",
 				"points": 90,
                 "factions":[
@@ -1182,52 +1203,32 @@
 					{
 						"name": "Big Shoota",
 						"points": 5,
-						"requireChooseOneKey": "a"
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "Skorcha",
 						"points": 5,
-						"requireChooseOneKey": "a"
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "Rokkit Launcha",
 						"points": 10,
-						"requireChooseOneKey": "a"
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "Dreadnought Close Combat Weapon",
 						"points": 15,
-						"requireChooseOneKey": "a"
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "Kustom Mega-Blasta",
 						"points": 15,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Big Shoota",
-						"points": 5,
-						"requireChooseOneKey": "b"
-					},
-					{
-						"name": "Skorcha",
-						"points": 5,
-						"requireChooseOneKey": "b"
-					},
-					{
-						"name": "Rokkit Launcha",
-						"points": 10,
-						"requireChooseOneKey": "b"
-					},
-					{
-						"name": "Dreadnought Close Combat Weapon",
-						"points": 15,
-						"requireChooseOneKey": "b"
-					},
-					{
-						"name": "Kustom Mega-Blasta",
-						"points": 15,
-						"requireChooseOneKey": "b"
+						"increment": true,
+						"max": 2
 					},
 					{
 						"name": "Grot Riggers",
@@ -1241,6 +1242,55 @@
 			}
 		],
         "models":[
+			{
+				"name": "Warbuggy",
+				"points": 35,
+                "availableIn": [
+                    "Warbuggies"
+                ],
+				"scaleKeys": ["trooper"],
+				"bs": 2,
+				"front": 10,
+				"side": 10,
+				"rear": 10,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Twin-linked Big Shoota",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Twin-linked Rokkit Launcha",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Skorcha",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "Red Paint Job",
+						"points": 5
+					},
+                    {
+						"name": "Grot Riggers",
+						"points": 5
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					},
+                    {
+						"name": "Wartrakk",
+						"points": 5
+					}
+				]
+			},
 			{
 				"name": "Deffkopta",
 				"points": 35,
