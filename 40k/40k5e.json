@@ -1087,6 +1087,88 @@
                 }
 			},
 			{
+				"name": "Looted Wagon",
+				"points": 35,
+                "factions":[
+                    {
+						"name": "Orks",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"bs": 2,
+				"front": 11,
+				"side": 11,
+				"rear": 10,
+				"wargear": [],
+				"specialRules": [],
+				"options": [
+					{
+						"name": "Boomgun",
+						"points": 70,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Skorcha",
+						"points": 15,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Deff Rolla",
+						"points": 20,
+						"unavailableWithLocal": "Reinforced Ram"
+					},
+					{
+						"name": "'Ard Case",
+						"points": 10
+					},
+					{
+						"name": "Red Paint Job",
+						"points": 5
+					},
+					{
+						"name": "Grot Riggers",
+						"points": 5
+					},
+					{
+						"name": "Stikkbomb Chukka",
+						"points": 5
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					},
+					{
+						"name": "Boarding Plank",
+						"points": 5
+					},
+					{
+						"name": "Wreckin' Ball",
+						"points": 10
+					},
+					{
+						"name": "Grabbin' Klaw",
+						"points": 5
+					},
+					{
+						"name": "Reinforced Ram",
+						"points": 5
+					},
+					{
+						"name": "Big Shoota",
+						"points": 5,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Rokkit Launchas",
+						"points": 10,
+						"increment": true,
+						"max": 2
+					}
+				]
+			},
+			{
 				"name": "Battlewagon",
 				"points": 90,
                 "factions":[
