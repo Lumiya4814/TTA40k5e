@@ -1103,24 +1103,6 @@
 				],
 				"options": [
 					{
-						"name": "Kannons",
-						"points": 0,
-						"requireChooseOneKey": "a",
-						"scaleWithKeys": "guns"
-					},
-					{
-						"name": "Lobbas",
-						"points": 5,
-						"requireChooseOneKey": "a",
-						"scaleWithKeys": "guns"
-					},
-					{
-						"name": "Zzap Guns",
-						"points": 10,
-						"requireChooseOneKey": "a",
-						"scaleWithKeys": "guns"
-					},
-					{
 						"name": "Ammo Runt",
 						"points": 3,
 						"increment": true,
@@ -1381,44 +1363,26 @@
                 "availableIn": [
                     "Big Gunz"
                 ],
-				"scaleKeys": ["trooper"],
+				"scaleKeys": ["gun"],
 				"wargear": [
 				],
 				"specialRules": [
 				],
 				"options": [
 					{
-						"name": "Kannon",
+						"name": "Kannons",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Lobbas",
 						"points": 5,
 						"requireChooseOneKey": "a"
 					},
 					{
-						"name": "Rokkit Launcha",
-						"points": 15,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Skorcha",
-						"points": 5,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Grotzooka",
+						"name": "Zzap Guns",
 						"points": 10,
 						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Kustom Mega-Blasta",
-						"points": 20,
-						"requireChooseOneKey": "a"
-					},
-                    {
-						"name": "Grot Riggers",
-						"points": 5
-					},
-					{
-						"name": "Armour Plates",
-						"points": 10
 					}
 				]
 			},
@@ -2195,8 +2159,7 @@
                     },
 					{
 						"name": "Cybork Bodies",
-						"points": 5,
-						"scaleWithKeys": ["trooper"]
+						"points": 5
 					}
 				]
 			},
