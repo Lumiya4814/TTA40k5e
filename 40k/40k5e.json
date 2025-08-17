@@ -765,11 +765,6 @@
                       "Infiltrate"
 				],
 				"options": [
-					{
-						"name": "Stikkbombz",
-						"points": 1,
-						"scaleWithKeys": ["trooper"]
-					}
 				],
                 "increaseMaximumChildren": {
                     "models": 14
@@ -854,7 +849,28 @@
                     "models": 14
                 }
 			},
-          {
+			{
+				"name": "Gretchin",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 29
+                }
+			},
+          	{
 				"name": "Lootas",
                 "addsModels": true,
 				"points": 0,
@@ -923,7 +939,7 @@
 					"transport": 1
                 }
 			},
-          {
+          	{
 				"name": "Tankbustas",
                 "addsModels": true,
 				"points": 0,
@@ -964,6 +980,69 @@
 			}
 		],
         "models":[
+			{
+				"name": "Gretchin",
+				"points": 6,
+                "availableIn": [
+                    "Gretchin"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 2,
+				"bs": 3,
+				"s": 2,
+				"t": 2,
+				"w": 1,
+				"i": 2,
+				"a": 1,
+				"ld": 5,
+				"sv": 0,
+				"wargear": [
+					"Blasta"
+				],
+				"specialRules": [
+					"It's a Grot's Life"
+				],
+				"options": [
+				]
+			},
+			{
+				"name": "Runtherd",
+				"points": 10,
+                "availableIn": [
+                    "Gretchin"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 3,
+				"t": 4,
+				"w": 1,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga",
+					"Squig Hound"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+					{
+						"name": "Grabba Stikk",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Grot-Prod",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
             {
 				"name": "Ork Boy",
 				"points": 6,
@@ -1010,7 +1089,104 @@
 					}
 				]
 			},
-          {
+			{
+				"name": "Kommando",
+				"points": 10,
+                "availableIn": [
+                    "Kommandos"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 3,
+				"t": 4,
+				"w": 1,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+					{
+						"name": "Big Shoota",
+						"points": 5,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Rokkit Launcha",
+						"points": 10,
+						"requireChooseOneKey": "b"
+					},
+                    {
+						"name": "Burna",
+						"points": 15,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Slugga and Choppa",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					}
+				]
+			},
+			{
+				"name": "Kommando Nob",
+				"points": 20,
+                "availableIn": [
+                    "Kommandos"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 2,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 2,
+				"a": 2,
+				"ld": 7,
+				"sv": 6,
+				"wargear": [
+					"Slugga",
+					"Choppa"
+				],
+				"specialRules": [
+					"Furious Charge",
+					"Mob Rule",
+					"Waaagh!"
+				],
+				"options": [
+					{
+						"name": "Slugga and Choppa",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Big Choppa",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Power Klaw",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "'Eavy Armour",
+						"points": 5
+					},
+                    {
+						"name": "Bosspole",
+						"points": 5
+					}
+				]
+			},
+          	{
 				"name": "Tankbusta",
 				"points": 15,
                 "availableIn": [
@@ -1044,7 +1220,7 @@
 						
 				]
 			},
-          {
+          	{
 				"name": "Tankbusta Nob",
 				"points": 25,
                 "availableIn": [
@@ -1090,7 +1266,7 @@
 					}
 				]
 			},
-          {
+          	{
 				"name": "Burna Boy",
 				"points": 15,
                 "availableIn": [
@@ -1117,7 +1293,7 @@
 				"options": [
 				]
 			},
-          {
+          	{
 				"name": "Lootas",
 				"points": 15,
                 "availableIn": [
@@ -1144,7 +1320,7 @@
 				"options": [
 				]
 			},
-          {
+          	{
 				"name": "Mek",
 				"points": 15,
                 "availableIn": [                    
