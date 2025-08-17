@@ -1024,6 +1024,27 @@
                 }
 			},
 			{
+				"name": "Killa Kans",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Orks",
+						"rank": "Heavy Support"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 2               
+                }
+			},
+			{
 				"name": "Warbikers",
                 "addsModels": true,
 				"points": 0,
@@ -1221,6 +1242,62 @@
 			}
 		],
         "models":[
+			{
+				"name": "Killa Kan",
+				"points": 35,
+                "availableIn": [
+                    "Killa Kans"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 2,
+				"bs": 3,
+				"s": 5,
+				"i": 2,
+				"a": 2,
+				"front": 11,
+				"side": 11,
+				"rear": 10,
+				"wargear": [
+					"Dreadnought Close Combat Weapon"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Big Shoota",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Rokkit Launcha",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Skorcha",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Grotzooka",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Kustom Mega-Blasta",
+						"points": 20,
+						"requireChooseOneKey": "a"
+					},
+                    {
+						"name": "Grot Riggers",
+						"points": 5
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					}
+				]
+			},
 			{
 				"name": "Warbuggy",
 				"points": 30,
