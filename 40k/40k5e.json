@@ -1314,7 +1314,65 @@
 						"name": "Combi-Weapon",
 						"points": 10,
 						"chooseOneKey": "c"
-					},{
+					},
+					{
+						"name": "Havoc Launcher",
+						"points": 15,
+						"chooseOneKey": "c"
+					}
+				]
+			},
+			{
+				"name": "Chaos Land Raider",
+				"points": 220,
+                "factions":[
+                    {
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"bs": 4,
+				"front": 14,
+				"side": 14,
+				"rear": 14,
+				"wargear": [
+					"Sponson Twin-Linked Lascannons",
+					"Hull Twin-Linked Heavy Bolter",
+					"Searchlight",
+					"Smoke Launchers"
+				],
+				"specialRules": [
+					"Assault Vehicle"
+				],
+				"options": [
+					{
+						"name": "Dozer Blade",
+						"points": 5
+					},
+					{
+						"name": "Extra Armour",
+						"points": 15
+					},
+					{
+						"name": "Daemonic Possession",
+						"points": 20
+					},
+					{
+						"name": "Dirge Caster",
+						"points": 5
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"chooseOneKey": "c"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"chooseOneKey": "c"
+					},
+					{
 						"name": "Havoc Launcher",
 						"points": 15,
 						"chooseOneKey": "c"
