@@ -261,6 +261,31 @@
 		],
 		"units": [
 			{
+				"name": "Blight Drones of Nurgle",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Fast Attack"
+					},
+					{
+						"name": "Chaos Daemons",
+						"rank": "Fast Attack"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 2               
+                }
+			},
+			{
 				"name": "Obliterators",
                 "addsModels": true,
 				"points": 0,
@@ -2653,6 +2678,28 @@
 			}
 		],
         "models":[
+			{
+				"name": "Blight Drone of Nurgle",
+				"points": 125,
+                "availableIn": [
+                    "Blight Drones of Nurgle"
+                ],
+				"scaleKeys": ["trooper"],
+				"bs": 2,
+				"front": 12,
+				"side": 11,
+				"rear": 10,
+				"wargear": [
+					"Mawcannon",
+					"Reaper Autocannon"
+				],
+				"specialRules": [
+					"Daemonic",
+					"Explosion of Puss"
+				],
+				"options": [
+				]
+			},
 			{
 				"name": "Chaos Havoc",
 				"points": 15,
