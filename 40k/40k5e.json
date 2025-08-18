@@ -261,6 +261,27 @@
 		],
 		"units": [
 			{
+				"name": "Obliterators",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 2
+                }
+			},
+			{
 				"name": "Chaos Defiler",
 				"points": 150,
                 "factions":[
@@ -1139,7 +1160,54 @@
                 }
 			},
 			{
-				"name": "Chaos Space Marines",
+				"name": "Chaos Havocs",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Chaos Glory Icon",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Slaanesh Icon",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Khorne Icon",
+						"points": 30,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Nurgle Icon",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Tzeentch Icon",
+						"points": 40,
+						"chooseOneKey": "a"
+					}
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
+				"name": "Chaos Space Marine Squad",
                 "addsModels": true,
 				"points": 0,
 				"factions": [
@@ -2586,6 +2654,103 @@
 		],
         "models":[
 			{
+				"name": "Chaos Havoc",
+				"points": 15,
+                "availableIn": [
+					"Chaos Havocs"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 1,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades",
+					"Close Combat Weapon",
+					"Plasma Pistol"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Gun",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Meltagun",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Flamer",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Missile Launcher",
+						"points": 20,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Autocannon",
+						"points": 20,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Heavy Bolter",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Lascannon",
+						"points": 35,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Obliterator",
+				"points": 75,
+                "availableIn": [
+					"Obliterators"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 2,
+				"i": 4,
+				"a": 2,
+				"ld": 9,
+				"sv": 2,
+				"wargear": [
+					"Power Fist",
+					"Obliterator WEapons"
+				],
+				"specialRules": [
+					"Fearless",
+					"Slow and Purposeful",
+					"Deep Strike",
+					"5+ Invulnerable Save"
+				],
+				"options": [
+				]
+			},
+			{
 				"name": "Thousand Son",
 				"points": 23,
                 "availableIn": [
@@ -2951,7 +3116,8 @@
 				"name": "Aspiring Champion",
 				"points": 30,
                 "availableIn": [
-					"Chaos Space Marine Squad"
+					"Chaos Space Marine Squad",
+					"Chaos Havocs"
                 ],
 				"scaleKeys": ["trooper"],
 				"ws": 4,
