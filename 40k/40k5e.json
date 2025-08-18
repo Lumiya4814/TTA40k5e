@@ -341,6 +341,9 @@
 					"Battle Cannon",
 					"Daemonic Possession"
 				],
+				"unitType": [
+					"Vehicle (Walker)"
+				],
 				"specialRules": [
 					"Fleet"
 				],
@@ -408,6 +411,9 @@
 					"Drach'nyen",
 					"Talon of Horus"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Fearless",
@@ -448,6 +454,9 @@
 					"Frag Grenades",
 					"Krak Grenades",
 					"Chirurgeon"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -490,6 +499,9 @@
 					"Krak Grenades",
 					"Tyrant's Claw"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Fearless",
@@ -528,6 +540,9 @@
 					"Personal Icon",
 					"Mark of Nurgle",
 					"Manreaper"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -571,6 +586,9 @@
 					"Krak Grenades",
 					"Gorechild",
 					"Mark of Khorne"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -616,6 +634,9 @@
 					"Mark of Tzeentch",
 					"Black Staff of Ahriman"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Fearless",
@@ -658,6 +679,9 @@
 					"Doom Siren",
 					"Armour of Shrieking Souls"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Fearless",
@@ -692,6 +716,9 @@
 				"sv": 3,
 				"wargear": [
 					"Close Combat Weapon"
+				],
+				"unitType": [
+					"Monstrous Creature"
 				],
 				"specialRules": [
 					"Fearless",
@@ -787,6 +814,9 @@
 					"Power Armour",
 					"Frag Grenades",
 					"Krak Grenades"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Fearless",
@@ -915,6 +945,9 @@
 				"wargear": [
 					"Terminator Armour"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Fearless",
 					"5+ Invulnerable Save",
@@ -1006,6 +1039,9 @@
 					"Force Weapon",
 					"Frag Grenades",
 					"Krak Grenades"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -1122,6 +1158,9 @@
 				],
 				"specialRules": [
 					"Crazed"
+				],
+				"unitType": [
+					"Vehicle (Walker)"
 				],
 				"options": [
 					{
@@ -1384,6 +1423,9 @@
 					"Smoke Launchers",
 					"Searchlight"
 				],
+				"unitType": [
+					"Vehicle (Tank)"
+				],
 				"specialRules": [
 				],
 				"options": [
@@ -1459,6 +1501,9 @@
 					"Searchlight",
 					"Dozer Blade"
 				],
+				"unitType": [
+					"Vehicle (Tank)"
+				],
 				"specialRules": [
 				],
 				"options": [
@@ -1510,6 +1555,9 @@
 					"Hull Twin-Linked Heavy Bolter",
 					"Searchlight",
 					"Smoke Launchers"
+				],
+				"unitType": [
+					"Vehicle (Tank)"
 				],
 				"specialRules": [
 					"Assault Vehicle"
@@ -1575,6 +1623,9 @@
 					"Big Shoota",
 					"Adamantium Skull"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Furious Charge",
@@ -1614,6 +1665,9 @@
 					"'Urty Syringe'",
 					"Slugga",
 					"Dok's Tools"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -1658,6 +1712,9 @@
 					"Stikkbombz",
 					"Bosspole"
 				],
+				"unitType": [
+					"Bike"
+				],
 				"specialRules": [
 					"Independent Character",
 					"Furious Charge",
@@ -1693,6 +1750,9 @@
 				"sv": 6,
 				"wargear": [
 					"Nest of Vipers"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -1732,6 +1792,9 @@
 				"ld": 7,
 				"sv": 6,
 				"wargear": [
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -1774,6 +1837,9 @@
 				"wargear": [
 					"Stikkbombz",
 					"Choppa"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -1881,6 +1947,9 @@
 				"sv": 6,
 				"wargear": [
 					"Mek's Tools"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Independent Character",
@@ -2422,6 +2491,9 @@
 				"side": 11,
 				"rear": 10,
 				"wargear": [],
+				"unitType": [
+					"Vehicle (Tank, Open-Topped)"
+				],
 				"specialRules": [],
 				"options": [
 					{
@@ -2504,6 +2576,9 @@
 				"side": 12,
 				"rear": 10,
 				"wargear": [],
+				"unitType": [
+					"Vehicle (Tank, Open-Topped)"
+				],
 				"specialRules": [],
 				"options": [
 					{
@@ -2601,6 +2676,9 @@
 				"side": 12,
 				"rear": 10,
 				"wargear": [],
+				"unitType": [
+					"Vehicle (Walker)"
+				],
 				"specialRules": [],
 				"options": [
 					{
@@ -2703,6 +2781,9 @@
 					"Mawcannon",
 					"Reaper Autocannon"
 				],
+				"unitType": [
+					"Vehicle (Fast, Skimmer)"
+				],
 				"specialRules": [
 					"Daemonic",
 					"Explosion of Puss"
@@ -2732,6 +2813,9 @@
 					"Krak Grenades",
 					"Close Combat Weapon",
 					"Plasma Pistol"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 				],
@@ -2798,6 +2882,9 @@
 					"Power Fist",
 					"Obliterator WEapons"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Fearless",
 					"Slow and Purposeful",
@@ -2826,6 +2913,9 @@
 				"wargear": [
 					"Power Armour",
 					"Bolter"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Mark of Tzeentch",
@@ -2868,6 +2958,9 @@
 					"Power Armour",
 					"Bolt Pistol",
 					"Force Weapon"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Mark of Tzeentch",
@@ -2931,6 +3024,9 @@
 					"Krak Grenades",
 					"Close Combat Weapon"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Mark of Khorne",
 					"Fearless",
@@ -2969,6 +3065,9 @@
 					"Power Armour",
 					"Frag Grenades",
 					"Krak Grenades"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Mark of Slaanesh",
@@ -3018,6 +3117,9 @@
 					"Krak Grenades",
 					"Close Combat Weapon"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Mark of Slaanesh",
 					"Fearless"
@@ -3061,6 +3163,9 @@
 					"Power Armour",
 					"Frag Grenades",
 					"Krak Grenades"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Mark of Slaanesh",
@@ -3115,6 +3220,9 @@
 					"Close Combat Weapon"
 				],
 				"specialRules": [
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"options": [
 					{
@@ -3191,6 +3299,9 @@
 					"Frag Grenades",
 					"Krak Grenades"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 				],
 				"options": [
@@ -3263,6 +3374,9 @@
 					"Krak Grenades",
 					"Close Combat Weapon"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Mark of Nurgle",
 					"Fearless",
@@ -3322,6 +3436,9 @@
 					"Blight Grenades",
 					"Frag Grenades",
 					"Krak Grenades"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Mark of Nurgle",
@@ -3396,6 +3513,9 @@
 					"Snazzgun",
 					"Gitfinda"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -3412,6 +3532,9 @@
                 ],
 				"scaleKeys": ["gun"],
 				"wargear": [
+				],
+				"unitType": [
+					"Artillery"
 				],
 				"specialRules": [
 				],
@@ -3454,6 +3577,9 @@
 				"rear": 10,
 				"wargear": [
 					"Dreadnought Close Combat Weapon"
+				],
+				"unitType": [
+					"Vehicle (Walker)"
 				],
 				"specialRules": [
 				],
@@ -3505,6 +3631,9 @@
 				"side": 10,
 				"rear": 10,
 				"wargear": [
+				],
+				"unitType": [
+					"Vehicle (Fast, Open-topped)"
 				],
 				"specialRules": [
 				],
@@ -3567,6 +3696,9 @@
 					"Scouts",
 					"Hit and Run"
 				],
+				"unitType": [
+					"Jetbike"
+				],
 				"options": [
 					{
 						"name": "Twin-linked Big Shoota",
@@ -3615,6 +3747,9 @@
 					"Warbike",
 					"Dakkagun"
 				],
+				"unitType": [
+					"Bike"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -3647,6 +3782,9 @@
 					"Furious Charge",
 					"Mob Rule",
 					"Exhaust Cloud"
+				],
+				"unitType": [
+					"Bike"
 				],
 				"options": [
 					{
@@ -3774,6 +3912,9 @@
 				"wargear": [
 					"Blasta"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"It's a Grot's Life"
 				],
@@ -3800,6 +3941,9 @@
 				"wargear": [
 					"Slugga",
 					"Squig Hound"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -3836,6 +3980,9 @@
 				"ld": 7,
 				"sv": 6,
 				"wargear": [
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -3882,6 +4029,9 @@
 				"ld": 7,
 				"sv": 6,
 				"wargear": [
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -3930,6 +4080,9 @@
 				"wargear": [
 					"Slugga",
 					"Choppa"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -3982,6 +4135,9 @@
                   "Rokkit Launcha",
                   "Tankbusta Bombz"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -4014,6 +4170,9 @@
 				"sv": 6,
 				"wargear": [
 					"Tankbusta Bombz"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -4061,6 +4220,9 @@
 				"wargear": [
                   "Burna"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -4087,6 +4249,9 @@
 				"sv": 6,
 				"wargear": [
                   "Deffgun"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -4115,6 +4280,9 @@
 				"sv": 6,
 				"wargear": [
                   "Deffgun"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -4166,6 +4334,9 @@
 					"Mega Armour",
 					"Stikkbombz"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -4204,6 +4375,9 @@
 					"Dok's Tools",
 					"'Urty Syringe"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -4236,6 +4410,9 @@
 					"Dok's Tools",
 					"'Urty Syringe"
 				],
+				"unitType": [
+					"Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule",
@@ -4267,6 +4444,9 @@
 				"wargear": [
 					"Slugga",
 					"Choppa"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -4322,6 +4502,9 @@
 				"wargear": [
 					"Slugga",
 					"Choppa"
+				],
+				"unitType": [
+					"Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
@@ -4406,6 +4589,9 @@
 					"Smoke Launchers",
 					"Searchlight"
 				],
+				"unitType": [
+					"Vehicle (Tank)"
+				],
 				"options": [
 					{
 						"name": "Twin-linked Bolter",
@@ -4451,6 +4637,9 @@
 				],
 				"wargear": [
 					"Big shoota"
+				],
+				"unitType": [
+					"Vehicle (Fast, Open-topped)"
 				],
 				"options": [
 					{
@@ -4505,6 +4694,9 @@
 				"side": 12,
 				"rear": 10,
 				"wargear": [],
+				"unitType": [
+					"Vehicle (Tank, Open-Topped)"
+				],
 				"specialRules": [],
 				"options": [
 					{
@@ -4615,11 +4807,11 @@
 			},
 			{
 				"name": "Big Shoota",
-				"definition": "A big shoota is a loud, heavy, large-calibre machine gun that bucks and sparks like crazy when the trigger is pulled. It has the following profile: Range 36\", Str 5, AP 5, Notes Assault 3"
+				"definition": "Range 36\", Str 5, AP 5, Notes Assault 3"
 			},
 			{
 				"name": "Choppa",
-				"definition": "A Choppa is a Close Combat Weapon."
+				"definition": "Close Combat Weapon."
 			},
             {
 				"name": "Slugga",
@@ -4657,7 +4849,7 @@
 		"keywords": [
 			{
 				"name": "Furious Charge",
-				"definition": "Models with this skill are known for the wild ferocity of their assaults. In a turn in which they assaulted into combat they add +1 to both their Initiative and Strength characteristics when attacking in close combat (note that this has no effect on the Initiative tests for sweeping advances)"
+				"definition": "In a turn in which they assaulted into combat they add +1 to both their Initiative and Strength characteristics when attacking in close combat (note that this has no effect on the Initiative tests for sweeping advances)"
 			},
 			{
 				"name": "Ramshackle",
