@@ -1047,6 +1047,116 @@
 				]
 			},
 			{
+				"name": "Plague Marines",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
+				"name": "Chaos Space Marines",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
+				"name": "Khorne Berserkers",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
+				"name": "Thousand Sons",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
+				"name": "Noise Marines",
+                "addsModels": true,
+				"points": 0,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "Troops"
+					}
+				],
+				"unlimited": true,
+				"wargear": [
+				],
+				"specialRules": [
+				],
+				"options": [
+				],
+                "increaseMaximumChildren": {
+                    "models": 19,
+					"transport": 1
+                }
+			},
+			{
 				"name": "Ghazghkull Thraka",
 				"points": 225,
 				"factions": [
@@ -1521,7 +1631,7 @@
 					"transport": 1
                 }
 			},
-          {
+          	{
 				"name": "Kommandos",
                 "addsModels": true,
 				"points": 0,
