@@ -1198,6 +1198,79 @@
                 }
 			},
 			{
+				"name": "Chaos Predator",
+				"points": 70,
+                "factions":[
+                    {
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"bs": 4,
+				"front": 13,
+				"side": 11,
+				"rear": 10,
+				"wargear": [
+					"Smoke Launchers",
+					"Searchlight"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Turret Mounted Autocannon",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Turret Mounted Twin-Linked Lascannon",
+						"points": 35,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Sponson Heavy Bolters",
+						"points": 30,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Sponson Lascannons",
+						"points": 60,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Dozer Blade",
+						"points": 5
+					},
+					{
+						"name": "Extra Armour",
+						"points": 15
+					},
+					{
+						"name": "Daemonic Possession",
+						"points": 20
+					},
+					{
+						"name": "Dirge Caster",
+						"points": 5
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"chooseOneKey": "c"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"chooseOneKey": "c"
+					},{
+						"name": "Havoc Launcher",
+						"points": 15,
+						"chooseOneKey": "c"
+					}
+				]
+			},
+			{
 				"name": "Ghazghkull Thraka",
 				"points": 225,
 				"factions": [
