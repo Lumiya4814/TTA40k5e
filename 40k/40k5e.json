@@ -550,6 +550,308 @@
                 
 			},
 			{
+				"name": "Daemon Prince",
+				"points": 110,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "HQ"
+					}
+				],
+				"unique": true,
+				"ws": 7,
+				"bs": 5,
+				"s": 6,
+				"t": 5,
+				"w": 4,
+				"i": 5,
+				"a": 4,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Close Combat Weapon"
+				],
+				"specialRules": [
+					"Fearless",
+					"5+ Invulnerable Save",
+					"Eternal Warrior"
+				],
+				"options": [
+					{
+						"name": "Wings",
+						"points": 20
+					},
+					{
+						"name": "Mark of Nurgle",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+                    {
+						"name": "Mark of Khorne",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Slaanesh",
+						"points": 5,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Tzeentch",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+                    {
+						"name": "Doombolt",
+						"points": 10,
+						"unavailableWithLocal": "Mark of Khorne"
+					},
+					{
+						"name": "Warptime",
+						"points": 25,
+						"unavailableWithLocal": "Mark of Khorne"
+					},
+					{
+						"name": "Wind of Chaos",
+						"points": 30,
+						"unavailableWithLocal": "Mark of Khorne"
+					},
+                    {
+						"name": "Gift of Chaos",
+						"points": 30,
+						"unavailableWithLocal": "Mark of Khorne"
+					},
+					{
+						"name": "Nurgle's Rot",
+						"points": 15,
+						"unlockedBy": "Mark of Nurgle"
+					},
+					{
+						"name": "Bolt of Change",
+						"points": 25,
+						"unlockedBy": "Mark of Tzeentch"
+					},
+					{
+						"name": "Lash of Submission",
+						"points": 20,
+						"unlockedBy": "Mark of Slaanesh"
+					}
+				],
+				"increaseMaximumChildren": {
+                    "models": -1
+                }
+                
+			},
+			{
+				"name": "Chaos Lord",
+				"points": 90,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "HQ"
+					}
+				],
+				"unique": true,
+				"ws": 6,
+				"bs": 5,
+				"s": 4,
+				"t": 4,
+				"w": 3,
+				"i": 5,
+				"a": 3,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+					"Fearless",
+					"5+ Invulnerable Save",
+					"Eternal Warrior"
+				],
+				"options": [
+					{
+						"name": "Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Weapon",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Single Lightning Claw",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Pair of Lightning Claws",
+						"points": 30,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Daemonic Weapon",
+						"points": 40,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"chooseOneKey": "e"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"chooseOneKey": "e"
+					},
+					{
+						"name": "Wings/Jump Pack",
+						"points": 20,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Bike",
+						"points": 30,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Daemonic Steed",
+						"points": 30,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Mark of Nurgle",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+                    {
+						"name": "Mark of Khorne",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Slaanesh",
+						"points": 5,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Tzeentch",
+						"points": 20,
+						"chooseOneKey": "a"
+					}
+				],
+				"increaseMaximumChildren": {
+                    "models": -1
+                }
+                
+			},
+			{
+				"name": "Chaos Lord in Terminator Armour",
+				"points": 120,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "HQ"
+					}
+				],
+				"unique": true,
+				"ws": 6,
+				"bs": 5,
+				"s": 4,
+				"t": 4,
+				"w": 3,
+				"i": 5,
+				"a": 3,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Terminator Armour"
+				],
+				"specialRules": [
+					"Fearless",
+					"5+ Invulnerable Save",
+					"Eternal Warrior"
+				],
+				"options": [
+					{
+						"name": "Power Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Single Lightning Claw",
+						"points": 10,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Daemonic Weapon",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 0,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 5,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Pair of Lightning Claws",
+						"points": 10
+					},
+					{
+						"name": "Mark of Nurgle",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+                    {
+						"name": "Mark of Khorne",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Slaanesh",
+						"points": 5,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Tzeentch",
+						"points": 20,
+						"chooseOneKey": "a"
+					}
+				],
+				"increaseMaximumChildren": {
+                    "models": -1
+                }
+                
+			},
+			{
 				"name": "Ghazghkull Thraka",
 				"points": 225,
 				"factions": [
