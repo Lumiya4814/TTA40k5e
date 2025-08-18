@@ -1062,6 +1062,10 @@
 				"specialRules": [
 				],
 				"options": [
+					{
+						"name": "Personal Icon",
+						"points": 5
+					}
 				],
                 "increaseMaximumChildren": {
                     "models": 19,
@@ -1084,6 +1088,31 @@
 				"specialRules": [
 				],
 				"options": [
+					{
+						"name": "Chaos Glory Icon",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Slaanesh Icon",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Khorne Icon",
+						"points": 30,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Nurgle Icon",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Tzeentch Icon",
+						"points": 40,
+						"chooseOneKey": "a"
+					}
 				],
                 "increaseMaximumChildren": {
                     "models": 19,
@@ -1106,6 +1135,10 @@
 				"specialRules": [
 				],
 				"options": [
+					{
+						"name": "Personal Icon",
+						"points": 5
+					}
 				],
                 "increaseMaximumChildren": {
                     "models": 19,
@@ -1128,6 +1161,10 @@
 				"specialRules": [
 				],
 				"options": [
+					{
+						"name": "Personal Icon",
+						"points": 5
+					}
 				],
                 "increaseMaximumChildren": {
                     "models": 19,
@@ -1150,6 +1187,10 @@
 				"specialRules": [
 				],
 				"options": [
+					{
+						"name": "Personal Icon",
+						"points": 5
+					}
 				],
                 "increaseMaximumChildren": {
                     "models": 19,
@@ -2296,6 +2337,573 @@
 			}
 		],
         "models":[
+			{
+				"name": "Thousand Son",
+				"points": 23,
+                "availableIn": [
+					"Thousand Sons"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 1,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Bolter"
+				],
+				"specialRules": [
+					"Mark of Tzeentch",
+					"Fearless",
+					"Slow and Purposeful",
+					"The Sorcerer Commands",
+					"Inferno Bolts",
+					"4+ Invulnerable Save"
+				],
+				"options": [
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Aspiring Sorcerer",
+				"points": 60,
+                "availableIn": [
+					"Khorne Berserkers"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 2,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Bolt Pistol",
+					"Force Weapon"
+				],
+				"specialRules": [
+					"Mark of Tzeentch",
+					"Fearless",
+					"Slow and Purposeful",
+					"The Sorcerer Commands",
+					"Inferno Bolts",
+					"4+ Invulnerable Save"
+				],
+				"options": [
+					{
+						"name": "Doombolt",
+						"points": 10,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Warptime",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Wind of Chaos",
+						"points": 30,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Gift of Chaos",
+						"points": 30,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Bolt of Change",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Khorne Berserker",
+				"points": 21,
+                "availableIn": [
+					"Khorne Berserkers"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 5,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 2,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades",
+					"Close Combat Weapon"
+				],
+				"specialRules": [
+					"Mark of Khorne",
+					"Fearless",
+					"Furious Charge"
+				],
+				"options": [
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Skull Champion",
+				"points": 36,
+                "availableIn": [
+					"Khorne Berserkers"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 5,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 3,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+					"Mark of Slaanesh",
+					"Fearless"
+				],
+				"options": [
+					{
+						"name": "Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Weapon",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Noise Marine",
+				"points": 20,
+                "availableIn": [
+					"Noise Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 5,
+				"a": 1,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades",
+					"Close Combat Weapon"
+				],
+				"specialRules": [
+					"Mark of Slaanesh",
+					"Fearless"
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Sonic Blaster",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Blastmaster",
+						"points": 40,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Aspiring Champion",
+				"points": 35,
+                "availableIn": [
+					"Noise Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 5,
+				"a": 2,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Bolter",
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+					"Mark of Slaanesh",
+					"Fearless"
+				],
+				"options": [
+					{
+						"name": "Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Weapon",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Doom Siren",
+						"points": 15
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Chaos Space Marine",
+				"points": 15,
+                "availableIn": [
+					"Chaos Space Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 4,
+				"a": 1,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades",
+					"Close Combat Weapon"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Gun",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Meltagun",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Flamer",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Missile Launcher",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Autocannon",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Heavy Bolter",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Lascannon",
+						"points": 20,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "b"
+					}
+				]
+			},
+			{
+				"name": "Aspiring Champion",
+				"points": 30,
+                "availableIn": [
+					"Chaos Space Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 3,
+				"a": 2,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Weapon",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Plague Marine",
+				"points": 23,
+                "availableIn": [
+					"Plague Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 3,
+				"a": 1,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Blight Grenades",
+					"Frag Grenades",
+					"Krak Grenades",
+					"Close Combat Weapon"
+				],
+				"specialRules": [
+					"Mark of Nurgle",
+					"Fearless",
+					"Feel No Pain"
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Gun",
+						"points": 15,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Meltagun",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Flamer",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "b"
+					}
+				]
+			},
+			{
+				"name": "Plague Champion",
+				"points": 38,
+                "availableIn": [
+					"Plague Marines"
+                ],
+				"scaleKeys": ["trooper"],
+				"ws": 4,
+				"bs": 4,
+				"s": 4,
+				"t": 4,
+				"w": 1,
+				"i": 3,
+				"a": 2,
+				"ld": 9,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Blight Grenades",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+					"Mark of Nurgle",
+					"Fearless",
+					"Feel No Pain"
+				],
+				"options": [
+					{
+						"name": "Bolter",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Weapon",
+						"points": 15,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Power Fist",
+						"points": 25,
+						"requireChooseOneKey": "c"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					}
+				]
+			},
 			{
 				"name": "Flash Git",
 				"points": 25,
