@@ -153,6 +153,11 @@
                         "type": "static",
                         "dataSource": "gear"
                     },
+					{
+						"propertyName": "unitType",
+						"label": "Unit Type",
+						"type": "static"
+					},
                     {
                         "propertyName": "options",
                         "type": "checkbox",
@@ -190,6 +195,11 @@
                                     "type": "checkbox",
                                     "dataSource": "gear"
                                 },
+								{
+									"propertyName": "unitType",
+									"label": "Unit Type",
+									"type": "static"
+								},
                                 {
                                     "propertyName": "specialRules",
                                     "label": "Special Rules",
@@ -3681,6 +3691,9 @@
 					"Rokkit Pack",
 					"Stikkbombz"
 				],
+				"unitType": [
+					"Jump Infantry"
+				],
 				"specialRules": [
 					"Furious Charge",
 					"Mob Rule"
@@ -3707,6 +3720,9 @@
 				"wargear": [
 					"Slugga",
 					"Choppa"
+				],
+				"unitType": [
+					"Jump Infantry"
 				],
 				"specialRules": [
 					"Furious Charge",
