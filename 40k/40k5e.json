@@ -261,6 +261,72 @@
 		],
 		"units": [
 			{
+				"name": "Chaos Defiler",
+				"points": 150,
+                "factions":[
+                    {
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"ws": 3,
+				"bs": 3,
+				"s": 6,
+				"i": 3,
+				"a": 3,
+				"front": 12,
+				"side": 12,
+				"rear": 10,
+				"wargear": [
+					"Smoke Launchers",
+					"Searchlight",
+					"2x Dreadnought Close Combat Weapon",
+					"Battle Cannon",
+					"Daemonic Possession"
+				],
+				"specialRules": [
+					"Fleet"
+				],
+				"options": [
+					{
+						"name": "Twin-Linked Heavy Flamer",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Dreadnought Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Havoc Launcher",
+						"points": 5,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Reaper Autocannon",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Twin-Linked Heavy Bolter",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Twin-Linked Lascannon",
+						"points": 20,
+						"requireChooseOneKey": "b"
+					},
+					{
+						"name": "Dreadnought Close Combat Weapon",
+						"points": 0,
+						"requireChooseOneKey": "b"
+					}
+				]
+			},
+			{
 				"name": "Abaddon the Despoiler",
 				"points": 275,
 				"factions": [
