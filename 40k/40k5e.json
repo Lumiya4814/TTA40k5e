@@ -1271,6 +1271,57 @@
 				]
 			},
 			{
+				"name": "Chaos Vindicator",
+				"points": 125,
+                "factions":[
+                    {
+						"name": "Chaos Space Marines",
+						"rank": "Heavy Support"
+					}                    
+                ],
+				"unlimited": true,
+				"bs": 4,
+				"front": 13,
+				"side": 11,
+				"rear": 10,
+				"wargear": [
+					"Demolisher Cannon",
+					"Smoke Launchers",
+					"Searchlight",
+					"Dozer Blade"
+				],
+				"specialRules": [
+				],
+				"options": [
+					{
+						"name": "Extra Armour",
+						"points": 15
+					},
+					{
+						"name": "Daemonic Possession",
+						"points": 20
+					},
+					{
+						"name": "Dirge Caster",
+						"points": 5
+					},
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+						"chooseOneKey": "c"
+					},
+					{
+						"name": "Combi-Weapon",
+						"points": 10,
+						"chooseOneKey": "c"
+					},{
+						"name": "Havoc Launcher",
+						"points": 15,
+						"chooseOneKey": "c"
+					}
+				]
+			},
+			{
 				"name": "Ghazghkull Thraka",
 				"points": 225,
 				"factions": [
