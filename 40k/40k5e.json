@@ -2382,7 +2382,7 @@
 				"name": "Aspiring Sorcerer",
 				"points": 60,
                 "availableIn": [
-					"Khorne Berserkers"
+					"Thousand Sons"
                 ],
 				"scaleKeys": ["trooper"],
 				"ws": 4,
@@ -2571,7 +2571,7 @@
 				]
 			},
 			{
-				"name": "Aspiring Champion",
+				"name": "Noise Champion",
 				"points": 35,
                 "availableIn": [
 					"Noise Marines"
@@ -2626,7 +2626,7 @@
 				"name": "Chaos Space Marine",
 				"points": 15,
                 "availableIn": [
-					"Chaos Space Marines"
+					"Chaos Space Marine Squad"
                 ],
 				"scaleKeys": ["trooper"],
 				"ws": 4,
@@ -2703,7 +2703,7 @@
 				"name": "Aspiring Champion",
 				"points": 30,
                 "availableIn": [
-					"Chaos Space Marines"
+					"Chaos Space Marine Squad"
                 ],
 				"scaleKeys": ["trooper"],
 				"ws": 4,
