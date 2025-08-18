@@ -756,6 +756,14 @@
 						"name": "Mark of Tzeentch",
 						"points": 20,
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					},
+					{
+						"name": "Personal Icon",
+						"points": 5
 					}
 				],
 				"increaseMaximumChildren": {
@@ -850,6 +858,193 @@
                     "models": -1
                 }
                 
+			},
+			{
+				"name": "Chaos Sorcerer",
+				"points": 100,
+				"factions": [
+					{
+						"name": "Chaos Space Marines",
+						"rank": "HQ"
+					}
+				],
+				"unique": true,
+				"ws": 5,
+				"bs": 5,
+				"s": 4,
+				"t": 4,
+				"w": 3,
+				"i": 5,
+				"a": 3,
+				"ld": 10,
+				"sv": 3,
+				"wargear": [
+					"Power Armour",
+					"Bolt Pistol",
+					"Force Weapon",
+					"Frag Grenades",
+					"Krak Grenades"
+				],
+				"specialRules": [
+					"Independent Character",
+					"5+ Invulnerable Save"
+				],
+				"options": [
+					{
+						"name": "Wings/Jump Pack",
+						"points": 20,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Bike",
+						"points": 30,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Daemonic Steed",
+						"points": 30,
+						"chooseOneKey": "b"
+					},
+					{
+						"name": "Bolt Pistol",
+						"points": 0,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Plasma Pistol",
+						"points": 15,
+						"requireChooseOneKey": "d"
+					},
+					{
+						"name": "Mark of Nurgle",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Slaanesh",
+						"points": 5,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mark of Tzeentch",
+						"points": 30,
+						"chooseOneKey": "a"
+					},
+                    {
+						"name": "Doombolt",
+						"points": 10
+					},
+					{
+						"name": "Warptime",
+						"points": 25
+					},
+					{
+						"name": "Wind of Chaos",
+						"points": 30
+					},
+                    {
+						"name": "Gift of Chaos",
+						"points": 30
+					},
+					{
+						"name": "Nurgle's Rot",
+						"points": 15,
+						"unlockedBy": "Mark of Nurgle"
+					},
+					{
+						"name": "Bolt of Change",
+						"points": 25,
+						"unlockedBy": "Mark of Tzeentch"
+					},
+					{
+						"name": "Lash of Submission",
+						"points": 20,
+						"unlockedBy": "Mark of Slaanesh"
+					},
+					{
+						"name": "Melta Bombs",
+						"points": 5
+					},
+					{
+						"name": "Personal Icon",
+						"points": 5
+					}
+				],
+				"increaseMaximumChildren": {
+                    "models": -1
+                }
+                
+			},
+			{
+				"name": "Chaos Dreadnought",
+				"points": 90,
+                "factions":[
+                    {
+						"name": "Chaos Space Marines",
+						"rank": "Elites"
+					}                    
+                ],
+				"unlimited": true,
+				"ws": 4,
+				"bs": 4,
+				"s": 6,
+				"i": 4,
+				"a": 3,
+				"front": 12,
+				"side": 12,
+				"rear": 10,
+				"wargear": [
+					"Smoke Launchers",
+					"Searchlight",
+					"Dreadnought Close Combat Weapon plus Twin-linked Bolter"
+				],
+				"specialRules": [
+					"Crazed"
+				],
+				"options": [
+					{
+						"name": "Twin-Linked Autocannon",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Twin-Linked Lascannon",
+						"points": 35,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Twin-Linked Heavy Bolter",
+						"points": 15,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Multimelta",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Plasma Cannon",
+						"points": 15,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Additional Dreadnought Close Combat Weapon plus Twin-linked Bolter",
+						"points": 10,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Heavy Flamer",
+						"points": 5
+					},
+					{
+						"name": "Extra Armour",
+						"points": 15
+					},
+					{
+						"name": "Missile Launcher",
+						"points": 0
+					}
+				]
 			},
 			{
 				"name": "Ghazghkull Thraka",
@@ -2998,6 +3193,70 @@
 			}
         ],
 		"transports": [
+			{
+				"name": "Chaos Rhino",
+				"points": 35,
+				"factions": [
+					"Chaos Space Marines"
+				],
+				"bs": 4,
+				"front": 11,
+				"side": 11,
+				"rear": 10,
+				"specialRules": [
+					"Repair"
+				],
+				"wargear": [
+					"Twin-linked Bolter",
+					"Smoke Launchers",
+					"Searchlight"
+				],
+				"options": [
+					{
+						"name": "Twin-linked Bolter",
+						"points": 5,
+                        "chooseOneKey": "a"
+					},
+                    {
+						"name": "Combi-Weapon",
+						"points": 10,
+                        "chooseOneKey": "a"
+					},
+					{
+						"name": "Havoc Launcher",
+						"points": 15,
+                        "chooseOneKey": "a"
+					},
+					{
+						"name": "Dozer Blade",
+						"points": 5
+					},
+					{
+						"name": "Extra Armour",
+						"points": 15
+					},
+					{
+						"name": "Daemonic Possession",
+						"points": 20
+					},
+					{
+						"name": "Armour Plates",
+						"points": 10
+					},
+					{
+						"name": "Boarding Plank",
+						"points": 5
+					},
+					{
+						"name": "Wreckin' Ball",
+						"points": 10
+					},
+					{
+						"name": "Reinforced Ram",
+						"points": 5
+					}
+				]
+			},
 			{
 				"name": "Trukk",
 				"points": 35,
