@@ -4862,6 +4862,90 @@
 			{
 				"name": "Mob Rule!",
 				"definition": "Ork mobs may always choose to substitute the number of Orks in their mob for their normal Leadership value. If an Ork mob numbers 11 or more models, it has the Fearless special rule."
+			},
+			{
+				"name": "Counter-Attack",
+				"definition": "To represent this, when a unit with this rule is assaulted by the enemy it must take a Leadership test. If the test is successful all models in the unit get the +1 assault bonus to their attack, exactly as if they too had assaulted that turn. This rule cannot be used if, when assaulted, the unit was already locked in combat from a previous turn."
+			},
+			{
+				"name": "Eternal Warrior",
+				"definition": "The model is immune to the effects of the Instant Death rule."
+			},
+			{
+				"name": "Fearless",
+				"definition": "Fearless troops automatically pass all Morale and Pinning tests they are required to take, and will never fall back. They can however go to ground voluntarily. This special rule is gained by any independent character joining a fearless unit. However, as long as a fearless character stays with a unit that is not fearless, he loses this special rule. If a unit that is falling back suddenly gains this rule, it will automatically regroup at the beginning of its next Movement phase, regardless of all normal restrictions on regrouping."
+			},
+			{
+				"name": "Feel No Pain",
+				"definition": "If a model with this ability suffers an unsaved wound, roll a dice. On a 1, 2 or 3, take the wound as normal (removing the model if it loses its final Wound). On a 4, 5 or 6, the injury is ignored and the model continues fighting. This ability cannot be used against wounds from weapons that inflict instant death (by having a high enough Strength or a special rule to that effect), even if the model is an eternal warrior. Neither can it be used against wounds from AP1 and AP2 weapons, power weapons and any other wound against which no armour save can ever be taken (like wounds from power fists, Dreadnought close combat weapons, rending weapons that roll a 6, Perils of the Warp, failed dangerous terrain tests, etc)."
+			},
+			{
+				"name": "Fleet",
+				"definition": "A unit with this rule may assault in the same turn in which it has run."
+			},
+			{
+				"name": "Hit & Run",
+				"definition": "Units with this ability that are locked in combat may choose to leave close combat at the end of the Assault phase. The unit using the hit & run ability must take an Initiative test. If the test is failed nothing happens and the models remain locked in the fight. If the test is passed, the unit breaks from combat and immediately moves up to 3D6' in a straight line in any direction, ignoring the units they are no longer locked in combat with. Enemy units that are no longer locked in combat may consolidate. A hit & run move is not slowed by difficult terrain, but is affected by dangerous terrain."
+			},
+			{
+				"name": "Infiltrate",
+				"definition": "Units with this special rule are deployed last, after all other units (friends and foe) have been deployed. If both sides have infiltrators, the players roll-off and the winner decides who goes first, and then alternate deploying these units. Infiltrators may be set up anywhere on the table that is more than 12' from any enemy unit, as long as no deployed enemy unit can draw a line of sight to them. This includes inside a building (see page 83), as long as the building is more than 12' from any enemy unit. Alternatively, they may be set up anywhere on the table that is more than 18' from any enemy unit, even in plain sight. If a unit with this ability is deployed inside a transport vehicle, it cannot infiltrate. Infiltrate also confers a special outflank move to units of infiltrators that are kept in reserve (see page 94)."
+			},
+			{
+				"name": "Move Through Cover",
+				"definition": "Units with this rule roll an extra D6 when rolling to move through difficult terrain. In most circumstances this will mean that they roll three D6 and pick the dice with the highest score."
+			},
+			{
+				"name": "Night Vision/Acute Senses",
+				"definition": "When the Night Fighting mission special rule is in use, such models may choose to re-roll the test to determine how far they can see, but must abide by the new result. Characters with this rule confer it onto any unit they join, as long as they are part of the unit. Units with this rule confer it onto any characters joining them, as long as they are part of the unit."
+			},
+			{
+				"name": "Preferred Enemy",
+				"definition": "Such units can always re-roll their rolls to hit in close combat against their preferred enemy. This ability does not work when attacking vehicles without a Weapon Skill characteristic."
+			},
+			{
+				"name": "Rage",
+				"definition": "In the Movement phase, units subject to rage must always move as fast as possible towards the closest visible enemy. In the Shooting phase, they are free to decide whether to run, but if they do they must run towards the closest visible enemy. In the Assault phase they must always consolidate towards the closest visible enemy. Whilst falling back, embarked on a transport, or if no enemy is visible, they ignore this rule."
+			},
+			{
+				"name": "Relentless",
+				"definition": "Relentless models can shoot with rapid fire and heavy weapons counting as stationary, even if they moved in the previous Movement phase, and are also allowed to assault in the same turn they fire them. Note that a relentless independent character must still abide by the assaulting limitations of any unit it has joined, if the unit is not itself relentless."
+			},
+			{
+				"name": "Scouts",
+				"definition": "After both sides have deployed (including infiltrators), but before the first player begins his first turn, any scouts may make a normal move. This is done exactly as in their Movement phase, except that during this move, scouts must remain more than 12' away from any enemy. If both sides have scouts, the players roll-off and the winner decides who goes first, and then alternate moving these units. If a unit with this ability is deployed inside a dedicated transport vehicle, it confers the scout ability to the transport too. This rule also confers a special outflank move to units of scouts that are kept in reserve (see page 94)."
+			},
+			{
+				"name": "Skilled Rider",
+				"definition": "The rider is highly practiced at moving though perilous warzones. It may re-roll the dice for all failed dangerous terrain tests as long as its unit type is bike or cavalry."
+			},
+			{
+				"name": "Slow and Purposeful",
+				"definition": "However, they always count as moving through difficult terrain (including in assaults). Remember that a slow and purposeful independent character will cause any unit he joins to move at his speed (and vice versa) as units have to move at the speed of the slowest model."
+			},
+			{
+				"name": "Stealth",
+				"definition": "All of the unit's cover saves are improved by +1."
+			},
+			{
+				"name": "Stubborn",
+				"definition": "When taking Morale tests, stubborn units always ignore any negative Leadership modifiers. Independent characters that are stubborn confer the ability onto any unit that they join."
+			},
+			{
+				"name": "Swarms",
+				"definition": "All swarms have the 'stealth' and 'vulnerable to blasts/templates' special rules. In addition, intervening swarms never offer any cover save to monstrous creatures or vehicles."
+			},
+			{
+				"name": "Tank Hunters",
+				"definition": "They add +1 to their armour penetration rolls whenever they hit a vehicle (both at range and in close combat). In addition, they automatically pass Morale checks caused by tank shock."
+			},
+			{
+				"name": "Turbo-boosters",
+				"definition": "When using their turbo-boosters they may move up to 24' in the Movement phase. Controlling the fast speeds takes all their concentration and skill, however, so they cannot move through difficult terrain, shoot, launch assaults or execute any other voluntary action in the same turn. In the following enemy Shooting phase, the bike benefits from a cover save of 3+ to represent the difficulty of hitting such fast-moving targets. In that enemy Shooting phase, however, bikers lose the ability of going to ground, and automatically pass Pinning tests. A unit using turbo-boosters must end its move at least 1' away from its starting point to claim this cover save, as it relies on flat-out speed."
+			},
+			{
+				"name": "Vulnerable to Blasts/Templates",
+				"definition": "If the unit is a vehicle, then each hit counts as two hits. If it is not a vehicle, each unsaved wound is doubled to two wounds."
 			}
 		]
 	}
